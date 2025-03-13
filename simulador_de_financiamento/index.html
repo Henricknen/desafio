@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio iPag</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simular Financiamento</h1>
+        <form id="simuladorForm" onsubmit = "calcularFinanciamento(event)">
+            <label for = "valor">Valor do Financiamento:</label>
+            <input type = "number" id = "valor" placeholder = "Digite o valor" required>
+
+            <label for = "taxa">Taxa de Juros:</label>
+            <input type = "number" id = "taxa" placeholder = "Digite a taxa" required>
+
+            <label for = "parcelas">Número de Parcelas:</label>
+            <input type = "number" id = "parcelas" placeholder = "Digite o número de parcelas" required>
+
+            <button type = "submit">Calcular</button>
+        </form>
+
+        <div id = "resultado"></div>
+    </div>
+    
+    <script src = "js/script.js"></script>
+</body>
+</html>
