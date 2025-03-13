@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio iPag</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />     <!-- link da biblioteca de icones -->
+</head>
+<body>
+    <div class = "todo-container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <form id = "todo-form">
+            <p>Adiciona sua Tarefa:</p>
+            <div class = "form-control">
+                <input type = "text" id = "todo-input" placeholder = "O que vai fazer ?">
+                <button type = "submit">
+                    <i class = "fa fa-plus"></i>
+                </button>
+            </div>
+        </form>
+        <for id="edit-form" class = "hide">
+            <p>Edite a sua Tarefa:</p>
+            <div class = "form-control">
+                <input type = "text" id = "edit-input">
+                <button type = "submit">
+                    <i class = "fa fa-check-double"></i>
+                </button>
+            </div>
+            <button id = "cancel-edit-btn" type = "button">Cancelar</button>
+        </for>
+        <div id = "todo-list">
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
