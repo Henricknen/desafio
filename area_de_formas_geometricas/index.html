@@ -5,28 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio iPag</title>
-    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class = "container">
-        <h1>Cálculo de Área de Formas Geométricas</h1>
-        <label for = "forma">Escolha uma forma geométrica:</label>
-        <select id = "forma" onchange = "mostrarInputs()">
-            <option value = "">Selecione</option>
-            <option value = "quadrado">Quadrado</option>
-            <option value = "retangulo">Retângulo</option>
-            <option value = "triangulo">Triângulo</option>
-            <option value = "circulo">Círculo</option>
+    <div class="container">
+        <h1>Área de Formas Geométricas</h1>
+        <label for="forma">Escolha uma forma geométrica:</label>
+        <select id="forma" onchange="mostrarInputs()">
+            <option value="">Selecione</option>
+            <option value="quadrado">Quadrado</option>
+            <option value="retangulo">Retângulo</option>
+            <option value="triangulo">Triângulo</option>
+            <option value="circulo">Círculo</option>
         </select>
 
-        <div id = "inputs" class = "inputs">
+        <div id="inputs" class="inputs"></div>
 
-        </div>
-
-        <button onclick = "calculateArea()">Calcular Área</button>
-        <h2 id = "result"></h2>
+        <button onclick="calculateArea()">Calcular Área</button>
+        <h2 id="result"></h2>
     </div>
     
-    <script src = "css/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
