@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio iPag</title>
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Manipulação e Comunicação de Objetos</h1>
+        
+        <label for = "controle">Selecione um Controle:</label>
+        <select id = "controle">
+            <option value = "">Selecione</option>
+            <option value = "LG">Controle LG</option>
+            <option value = "Samsung">Controle Samsung</option>
+            <option value = "Sony">Controle Sony</option>
+        </select>
+
+        <button onclick = "ligarTV()">Ligar TV</button>
+        <button onclick = "desligarTV()">Desligar TV</button>
+
+        <h2 id = "status"></h2>
+    </div>
+    
+    <script src = "js/script.js"></script>
+</body>
+</html>
