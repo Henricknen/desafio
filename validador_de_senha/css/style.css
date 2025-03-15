@@ -23,14 +23,15 @@ input {
 }
 
 button {
-    padding: 10px 15px;
-    background-color: #007BFF;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
