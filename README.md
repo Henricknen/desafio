@@ -1,2 +1,2 @@
-# desafio_iPag
+# desafio
 desafio_paa_testar_habilidades_de_programacao_e_logica_de_programacao
